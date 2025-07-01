@@ -1,0 +1,235 @@
+
+
+data types in C
+------------
+int a = 10;
+int val = 20;
+
+
+int a[3] = {10,20,30};
+
+float b = 34.32;
+char c= 'z';
+double
+long 
+short
+
+
+python objects
+-------------
+Everything in python is object
+** Every object has methods ***
+
+
+number
+------
+number can be integer or decimal or hexa or octal.
+
+a = 10
+aval = 45.43
+b = 40.2
+
+string
+------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """unix shell scripting"""
+
+
+list ( array in C)
+-------------
+list contain set of elements.
+elements can be numbers,strings or any combination like list of lists,list of dictionaries,list of tuples.
+list is defined in [].
+
+alist = [10,20,30,40]
+blist = ["python","oracle","unix"]
+clist = [45,56.43,"unix","java"]
+dlist = [[10,20],[30,40]]
+elist = [{'chap1':10,'chap2':20},{'chap3':30,'chap4':40} ]
+
+
+
+tuple  ( immutable unchangeable uneditable )
+------
+tuple contains set of elements.
+elements can be numbers,strings or any combination.
+tuple is defined in ().
+** Elements inside tuple cannot be modified directly **
+
+atup = (10,20,30,40)
+btup = ("python","unix","oracle")
+ctup = (10,20,"python",[30,40],(20,30))
+
+
+dictionary ( json  hashmap   hash   associativearray  items)
+----------
+dictionary contains keys and values.
+dictionary is defined in {}.
+In dictionary, keys are unique
+
+syntax:  object = { key:value , key:value , key:value }
+example   book =  {"chap1":10 , "chap2":20 , "chap3":30}
+          data = {1:2,3:4,5:6}
+          data = {1:"ram",3:"rao"}
+          book =  {"chap1":["rita","US"] , "chap2":["sita","UK"] }
+          book =  {"chap1":{"rita":"US"} , "chap2":{"sita":"UK"} }
+
+  Index
+  ----
+chap1   10
+chap2   20
+chap3   30
+chap4   40
+
+
+set ( venn diagrams in school maths)
+-------------------------------------
+set is UNORDERED collection of UNIQUE elements of same type.
+
+aset = {10,10,10,20,20,30,30}
+
+
+
+conditions
+------
+if 
+if-else 
+if-elif-elif-elif-else
+
+looping statements
+----------------
+for 
+while
+
+
+
+
+
+if ( a < b) 
+{
+   # do something 
+   }
+
+
+
+functions
+- builtin functions
+- user defined functions
+
+
+print()
+
+
+
+what is the need of user defined functions ?
+-----------------------------------------
+- code reusability
+- define the block once and call it for multiple times.
+
+
+function | definition | subroutine | submodule
+----------------------------------------------
+
+
+def display():
+   ## code
+
+
+display()
+
+
+
+
+# C
+-------
+## header file
+#include<stdio.h>
+#include<conio.h> 
+#include<math.h> 
+#include<graphics.h> 
+#include<datetime.h> 
+#include<strings.h> 
+
+
+#python
+-------
+
+- builtin libraries    :  already available in python when python is installed
+- third party libraries:  Depending on the requirement
+                          ( cloud automation , analytics, testing , n/w automation , web, gui, ML)
+                          developer has to install third party libraries
+
+
+
+What would be the count of all libraries ?
+----------------------------------------
+6L+
+
+
+################################### frequently used builtin libraries #############################
+
+os         : os level activities ( create directory ,delete directory , list files , )
+math       : mathematical operations
+sys        :  sys and python config data
+shutil     : copy,move, rmtree  etc
+urllib     : read the web, downloading the files
+logging    : logging all the events
+smtplib    : sending the mails
+ftplib     : performing ftp operations
+sysconfig  :  sys and python config data
+zipfile    : create/extract the zip files
+rarfile    : create/extract the rar files
+cryptopgraphy : encrypting and decrypting the data or files
+tarfile    : create/extract the tar files
+filecmp    : comparing files or directories
+sqlite3    : python default database
+csv        : reading/writing csv files
+xml        : reading/writing xml files
+calendar   : display month,year calendar info
+datetime   : working with date n time
+time       : working with date n time
+fractions  : working with decimal values
+glob       : display all the files
+heapq      : more of array operations ( getting largest among list )
+subprocess : executing system commands in python (  subprocess.getoutput("ls -ltr")
+pdb        : python debugger
+platform   : platform information
+random     : random operations ( shuffling , random digit ... )
+re         : grep + awk + sed
+socket     : networking programming
+stat       : stats of the file
+statistics : basic statistics
+pathlib	   : Object-oriented file path operations
+time	     : Delays, timestamps, performance checks
+logging	   : Logging for scripts/apps (replace print for real apps)
+argparse	 : Command-line interface (CLI) argument parsing
+configparser : 	Read/write .ini config files
+json	     :Serialize/deserialize JSON (common in APIs)
+uuid	     : Generate unique IDs (useful in files, databases)
+statistics	:Basic stats: mean, median, stdev
+random	    :Random number generation, sampling
+collections	:Specialized containers (defaultdict, Counter, namedtuple)
+traceback	   :Print/format exception tracebacks
+warnings	   :Raise and handle warnings
+
+
+
+Every libary is well documentated
+
+
+
+
+task/requirement  =     core programming    + libraries    + domain expertise
+                       ( procedural or oop)
+
+
+
+
+import pandas  # data analytical tool
+
+
+- create llms
+- implement usecases( sentiment analysis, summarilization , language transilation ) using llms
