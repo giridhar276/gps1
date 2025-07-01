@@ -1,0 +1,22 @@
+python
+files.txt
+builtinfunctions.py
+newfile.csv
+.DS_Store
+notes.txt
+userdefined1.py
+stringmethods.py
+librariesdemo.py
+userdefinedfunctions.py
+Introduction_to_LLMs.pdf
+credit_card_logistic_regression.ipynb
+sampletest.py
+AI_Agent_Development.docx
+bookinfo.csv
+examples
+bookinfo.json
+employees.csv
+importdemo.py
+credit_card_data.csv
+GENERATIVE AI TERMINOLOGY.pdf
+Gen_AI_Fullstack_Development.docx
