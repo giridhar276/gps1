@@ -1,5 +1,7 @@
 
 
+
+
 data types in C
 ------------
 int a = 10;
@@ -233,3 +235,60 @@ import pandas  # data analytical tool
 
 - create llms
 - implement usecases( sentiment analysis, summarilization , language transilation ) using llms
+
+
+
+python libraries
+----------------
+testting
+building GUI appls
+web apps
+web scraping
+automation
+- network automation
+- system automation
+- server automation
+analytics  -----
+data science
+
+
+
+python
+------
+hello.py   ( print is required)
+hello.ipynb   ( line by line executions )
+
+
+
+
+
+AI 
+data science
+machine learning
+deep learning
+
+gen AI - genrates text or images or audio or video .
+large language models - already trained on large volumne of data for performing various tasks like coding,sentiment analysis, language translation ,Q&A
+
+large language models or foundational models or diffusion models - capable of both image processing and also text processing
+
+openai - organization name that provides llms like gpt 3 ,gpt 4.5
+gpt  - large language model
+chatgpt  - UI that talks to gpt llm
+perplexcity - UI mainly used for coding
+prompt enginnering - how we interact to llm
+llama - is a large langauge model
+huggingface - all the open source models
+foundational models or large language model or pre trained model
+pre trained models
+langchain - is a framework used to talk with llm
+llamaindex - is one more framework used to talk with llm
+opensource llms
+
+
+
+
+sentiment analytics -------> model1
+next work prediction ------> model2
+Q&A                  ------> model3
+language translilation ----> model4
